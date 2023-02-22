@@ -1,0 +1,28 @@
+/* Type Selectors */
+h1 {
+    text-align: center;
+}
+
+/* ID selectors */
+
+/* main page id selectors */
+#picture {
+    /* container for award img */
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    padding: 10px;
+} 
+
+#description {
+    /* description of the website */
+    text-align: center;
+    font-size: large;
+}
+
+/* resume id selectors */
+
+/* Class selectors */
+.text_center {
+    text-align: center;
+}
