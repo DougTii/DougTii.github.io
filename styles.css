@@ -6,19 +6,25 @@ h1 {
 /* ID selectors */
 
 /* main page id selectors */
-#picture {
-    /* container for award img */
-    margin: auto;
-    height: 50%;
-    width: 50%;
-    padding: 10px;
-} 
 
 #description {
     /* description of the website */
-    text-align: center;
     font-size: large;
 }
+
+#cute_dude {
+    /* image of the cutest dude */
+    margin: auto;
+    height: 25%;
+    width: 25%;
+    padding: 10px;
+} 
+
+#description p {
+    display: inline;
+}
+
+#description
 
 /* resume id selectors */
 
