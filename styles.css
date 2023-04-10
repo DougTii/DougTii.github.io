@@ -1,12 +1,20 @@
+/* Color palete hexcodes
+text color: white
+peach: #f8b195
+famingo pink: #f67280
+between pink and purple: #c06c84
+purple: #6c5b7b
+navy blue: #355c7d
+*/
+
 /* Type Selectors */
-h1 {
-    text-align: center;
+body {
+    font-size: 100%;
 }
 
 /* ID selectors */
 
 /* main page id selectors */
-
 #description {
     /* description of the website */
     font-size: large;
@@ -24,11 +32,57 @@ h1 {
     display: inline;
 }
 
-#description
-
 /* resume id selectors */
+#grad_date {
+    float:right
+}
+
+#will p {
+    display: inline-block;
+}
+
+#resume_header {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+#resume_header h1 {
+    font-size: 3em;
+}
+
+#res_contact {
+    margin: 0, 0, 10px;
+}
 
 /* Class selectors */
 .text_center {
     text-align: center;
+}
+
+.resume_header {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin: 0%;
+}
+
+.removed_margins {
+    margin: 0%;
+}
+
+.hover-pointer {
+    cursor: pointer;
+}
+
+/* Function stuff */
+.dark-mode {
+    background-color: black;
+    color: #00ffff;
+}
+
+/* Theses writing assignments */
+.mainThesis {
+    color: white;
+    background-color: #f8b195;
 }
